@@ -33,4 +33,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/github_actions:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/proyecto_diplomado_pedidos:latest
